@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main menu values -->
+
+    <string name="app_name">Manda Wiki</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_yakatana_button">Yakatana</string>
+    <string name="main_songs_button">Sånger</string>
+    <string name="main_workers_button">Arbetare</string>
+    <string name="title_activity_main">Månda Wiki</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_yakatana_recipe">Yakatana</string>
+
+    <!-- yakatana values -->
+
+    <string name="yakatana_button">Visa receptet</string>
+    <string name="yakatana_edit_message">Antal personer</string>
+    <string name="yakatana_hint">Ange 3, 6, 9 etc för jämnt resultat.</string>
+    <string name="title_activity_recipe_fragment">RecipeFragment</string>
+    <string name="title_activity_recipe">Recipe</string>
+    <string name="title_activity_error_dialog">Error</string>
+    <string name="title_activity_shopping_list">Shopping List</string>
+    <string name="yakatana_errorText">Ange endast siffror.</string>
+
+    <!-- recipe values -->
+
+    <string name="recipe_button">Visa inköpslista</string>
+    <string name="recipe_text"><b>Köttfärssås</b> \nHacka och bryn [lok]st gula lökar, 
+	        fyll sedan på med [kottfars]kg köttfärs och stek den ordentligt. 
+	    	Häll i [chilisas]g chilisås, [chilipulver]tsk chilipulver, [peppar]tsk svartpeppar, 
+	    	[ortsalt]tsk örtsalt, [oregano]tsk oregano, [tabasco] flaska tabasco och pressa i [vitlok] klyftor vitlök.\n
+	    	Låt puttra på låg värme i ca 2 timmar.\n\n			<b>Vitlökssås</b> \n
+	    	Blanda [sas_filmjolk]dl filmjölk, [sas_cremefraiche]dl creme fraiche, [sas_philadelphia]g phliadelphia ost, 
+	    	[sas_ortsalt]tsk örtsalt och pressa i [sas_vitlok] klyftor vitlök.
+	    	Rör om tills klumparna är borta och ställ i kylskåpet tills servering. </string>
+
+    <!-- shopping list values -->
+
+    <string name="list_headline">Inköpslista</string>
+    <string name="list_kottfars_text">kg köttfärs</string>
+
+    <plurals name="list_chilisas_text">
+        <item quantity="one">flaska chilisås</item>
+        <item quantity="other">flaskor chilisås</item>
+    </plurals>
+
+    <string name="list_chilipulver_text">tsk chilipulver</string>
+    <string name="list_peppar_text">tsk svartpeppar</string>
+    <string name="list_ortsalt_text">tsk örtsalt</string>
+    <string name="list_oregano_text">tsk oregano</string>
+
+    <plurals name="list_tabasco_text">
+        <item quantity="one">flaska tabasko</item>
+        <item quantity="other">flaskor tabasco</item>
+    </plurals>
+
+    <string name="list_filmjolk_text">paket filmjölk</string>
+    <string name="list_cremefraiche_text">dl creme fraiche</string>
+    <string name="list_philadelphia_text">g philadelphia ost</string>
+
+    <plurals name="list_lok_text">
+        <item quantity="one">gul lök</item>
+        <item quantity="other">gula lökar</item>
+    </plurals>
+
+    <string name="list_vitlok_text">klyftor vitlök</string>
+
+    <plurals name="list_tomat_text">
+        <item quantity="one">tomat</item>
+        <item quantity="other">tomater</item>
+    </plurals>
+    <plurals name="list_gurka_text">
+        <item quantity="one">gurka</item>
+        <item quantity="other"> gurkor</item>
+    </plurals>
+    <plurals name="list_ananas_text">
+        <item quantity="one">liten burk ananas</item>
+        <item quantity="other">små burkar ananas</item>
+    </plurals>
+    <plurals name="list_sallad_text">
+        <item quantity="one">salladshuvud</item>
+        <item quantity="other">salladshuvuden</item>
+    </plurals>
+    <plurals name="list_chips_text">
+        <item quantity="one">påse lättsaltade chips</item>
+        <item quantity="other">påsar lättsaltade chips</item>
+    </plurals>
+
+    <!-- songs values -->
+
+    <string name="title_activity_songs">Songs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_song_list">SongList</string>
+    
+    <!--  workers values -->
+    
+    <string name="title_activity_workers">Workers</string>
+    <string name="workers_facts">Namn: [name]\n
+        Kallas: [nick]\n
+        Generation: [generation]\n
+        Årgång: [born]\n
+        Läs(er/te): [class]</string>
+
+</resources>

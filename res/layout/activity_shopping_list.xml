@@ -1,0 +1,120 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee">
+	<LinearLayout
+	    
+	    android:id="@+id/popup"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    tools:context="com.example.mandawiki.Inkopslista"
+	    tools:ignore="MergeRootFrame">
+	    
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/list_headline"
+	        android:textSize="38sp" />
+	    <TextView 
+	        android:id="@+id/list_kottfars"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_chilisas"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_chilipulver"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_peppar"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_ortsalt"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_oregano"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_tabasco"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_filmjolk"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_cremefraiche"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_philadelphia"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_lok"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_vitlok"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_gurka"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_ananas"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_sallad"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    <TextView 
+	        android:id="@+id/list_chips"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:textSize="20sp" />
+	    
+	    
+	</LinearLayout>
+</ScrollView>

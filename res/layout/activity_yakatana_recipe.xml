@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mandawiki.YakatanaRecipe"
+    tools:ignore="MergeRootFrame" >
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    tools:context="com.example.mandawiki.YakatanaRecipe"
+	    tools:ignore="MergeRootFrame" >
+	    
+	    <EditText 
+	        android:id="@+id/yakatana_edit_message"
+	        android:layout_weight="1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/yakatana_edit_message"
+	        android:inputType="number" />
+	    
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/yakatana_button"
+	        android:onClick="generateRecpie" />
+	    
+	</LinearLayout>
+
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/yakatana_hint"
+	    android:textSize="20sp"/>
+	
+	<Button
+	    android:id="@+id/list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_button" 
+        android:visibility="gone"/>
+	
+	
+</LinearLayout>
+

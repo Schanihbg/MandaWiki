@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mandawiki"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mandawiki.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName="com.example.mandawiki.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mandawiki.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.YakatanaRecipe"
+            android:label="@string/title_activity_yakatana_recipe" >
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.RecipeFragment"
+            android:label="@string/title_activity_recipe_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.Recipe"
+            android:label="@string/title_activity_recipe" >
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.ErrorDialog"
+            android:label="@string/title_activity_error_dialog" >
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.ShoppingList"
+            android:label="@string/title_activity_shopping_list" >
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.Songs"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_songs" >
+        </activity>
+        <activity
+            android:name="com.example.mandawiki.Workers"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_workers" >
+        </activity>
+    </application>
+
+</manifest>
