@@ -179,7 +179,7 @@ public class YakatanaRecipe extends ActionBarActivity {
 	private void setListText(View layout) {
 		List list = recipe.getList();
 		TextView kottfars, chilisas, chilipulver, peppar, ortsalt, oregano, tabasco, filmjolk, cremefraiche,
-			philadelphia, lok, vitlok, gurka, ananas, sallad, chips;
+			philadelphia, lok, vitlok, gurka, tomat, ananas, sallad, chips;
 		String text;
 		
 		kottfars = (TextView) layout.findViewById(R.id.list_kottfars);
@@ -213,7 +213,7 @@ public class YakatanaRecipe extends ActionBarActivity {
 		tabasco.setText(text);
 		
 		filmjolk = (TextView) layout.findViewById(R.id.list_filmjolk);
-		text = Integer.toString((int) list.getSas_filmjolk()/10) + " " + getString(R.string.list_filmjolk_text);
+		text = Integer.toString((int) Math.ceil(list.getSas_filmjolk()/10)) + " " + getString(R.string.list_filmjolk_text);
 		filmjolk.setText(text);
 		
 		cremefraiche = (TextView) layout.findViewById(R.id.list_cremefraiche);
@@ -237,6 +237,11 @@ public class YakatanaRecipe extends ActionBarActivity {
 		text = Integer.toString((int) Math.ceil(list.getGurka())) + " " + getResources()
 				.getQuantityString(R.plurals.list_gurka_text, (int)Math.ceil(list.getGurka()));
 		gurka.setText(text);
+		
+		tomat = (TextView) layout.findViewById(R.id.list_tomat);
+		text = Integer.toString((int) Math.ceil(list.getTomat())) + " " + getResources()
+				.getQuantityString(R.plurals.list_tomat_text, (int)Math.ceil(list.getTomat()));
+		tomat.setText(text);
 		
 		ananas = (TextView) layout.findViewById(R.id.list_ananas);
 		text = Integer.toString((int) Math.ceil(list.getAnanas())) + " " + getResources()

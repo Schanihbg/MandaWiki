@@ -6,8 +6,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -34,7 +32,6 @@ public class WorkerList extends Fragment {
 	    task.execute("http://xn--mnda-qoa.se/wiki/index.php/Kategori:Arbetare");
 	    
 	    workerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
 	        @Override
 	        public void onItemClick(AdapterView<?> parent, final View view,
 	            int position, long id) {
