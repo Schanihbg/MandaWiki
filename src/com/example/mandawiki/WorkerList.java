@@ -29,13 +29,14 @@ public class WorkerList extends Fragment {
 		urlList = new String[2][0];
 		
 		WikiReader task = new WikiReader();
-	    task.execute("http://xn--mnda-qoa.se/wiki/index.php/Kategori:Arbetare");
+	    task.execute("http://wiki.xn--mnda-qoa.se/index.php?title=Kategori:Arbetare");
 	    
 	    workerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 	        @Override
 	        public void onItemClick(AdapterView<?> parent, final View view,
 	            int position, long id) {
 	        	String hit = (String) parent.getItemAtPosition(position);
+	        	
 	        	for(int i = 0; i < urlList[0].length; i++) {
 	        		if(urlList[0][i] == hit) {
 	        			Activity activity = getActivity();

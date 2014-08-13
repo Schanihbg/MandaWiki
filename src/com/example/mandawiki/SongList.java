@@ -31,7 +31,7 @@ public class SongList extends Fragment {
 		urlList = new String[2][0];
 		
 		WikiReader task = new WikiReader();
-	    task.execute("http://xn--mnda-qoa.se/wiki/index.php/Kategori:S%C3%A5nger");
+	    task.execute("http://wiki.xn--mnda-qoa.se/index.php?title=Kategori:S%C3%A5nger");
 	    
 	    songList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
